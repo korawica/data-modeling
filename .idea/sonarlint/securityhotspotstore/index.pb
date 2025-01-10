@@ -22,3 +22,5 @@ I
 docs/structures/master.md,c\b\cba374792da9ce174709ce8461a48b333d3b1305
 N
 docs/structures/transaction.md,3\7\3791f8b924bc842fe36911d6ef5dcec5dff33e09
+J
+.github/workflows/docs.yml,f\7\f77558a0cba95fa2ac6c74be338fafa09fda0050
