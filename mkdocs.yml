@@ -52,9 +52,10 @@ extra:
 
 nav:
   - index.md
-  - transform-spec.md
+  - Requirement Gathering: requirement-gathering.md
+  - Transform Spec: transform-spec.md
   - Metadata:
-    - Domain:
+    - Domains:
         - Customer: metadata/domains/customer.md
         - Address: metadata/domains/address.md
     - Structures:

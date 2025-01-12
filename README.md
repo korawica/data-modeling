@@ -3,7 +3,7 @@
 [![size](https://img.shields.io/github/languages/code-size/korawica/catalogs?logo=webpack&logoColor=white)](https://github.com/korawica/catalogs)
 [![gh license](https://img.shields.io/github/license/korawica/catalogs)](https://github.com/korawica/catalogs/blob/main/LICENSE)
 
-Catalog for data profiling for any business data store.
+Document project for **Catalog** and **Data Modeling** for any business data store.
 
 > [!NOTE]
 > This project will focus on the data modeling knowledge.
