@@ -52,11 +52,14 @@ extra:
 
 nav:
   - index.md
-  - customer: customer.md
-  - address: address.md
-  - Structures:
-      - Master: structures/master.md
-      - Transaction: structures/transaction.md
+  - transform-spec.md
+  - Metadata:
+    - Domain:
+        - Customer: metadata/domains/customer.md
+        - Address: metadata/domains/address.md
+    - Structures:
+        - Master: metadata/structures/master.md
+        - Transaction: metadata/structures/transaction.md
 
 plugins:
   - awesome-pages
