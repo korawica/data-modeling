@@ -5,24 +5,24 @@ the final product that use to communicate is the transformation spec data.
 
 ## Metadata of Spec Data
 
-| Component                        | Column Name                      | Description | Data Type                                                                 |
-|----------------------------------|----------------------------------|-------------|---------------------------------------------------------------------------|
-| PDM Information (Semantic Layer) | Database                         |             | STRING                                                                    |
-|                                  | Table Name / File Name           |             | STRING                                                                    |
-|                                  | Column Name                      |             | STRING                                                                    |
-|                                  | Data Type                        |             | STRING                                                                    |
-|                                  | Key                              |             | BOOLEAN                                                                   |
-|                                  | Field Definition                 |             | STRING                                                                    |
-| Source Information               | Source System / Database         |             | STRING                                                                    |
-|                                  | Table Name / File Name           |             | STRING                                                                    |
-|                                  | Alias                            |             | STRING                                                                    |
-|                                  | Column                           |             | STRING                                                                    |
-| Transform                        | Business Rule Type               |             | LITERAL["Not Mapped", "Constant", "Not Mapped", "Move", "Filter", "Join"] |
-|                                  | Business Rule / Join / Condition |             | STRING                                                                    |
-|                                  | Remark                           |             | STRING                                                                    |
-| Updating Information             | Updated Date                     |             | DATETIME                                                                  |		
-|                                  | Updated By                       |             | STRING                                                                    |
-|                                  | Remark                           |             | STRING                                                                    |
+| Component                        | Column Name                      | Description                  | Data Type                                                                 |
+|----------------------------------|----------------------------------|------------------------------|---------------------------------------------------------------------------|
+| PDM Information (Semantic Layer) | Database                         | Database or schema name      | STRING                                                                    |
+|                                  | Table Name / File Name           | Table or file name           | STRING                                                                    |
+|                                  | Column Name                      | Column name                  | STRING                                                                    |
+|                                  | Data Type                        | Data type                    | STRING                                                                    |
+|                                  | Key                              | Flag for primary key marking | BOOLEAN                                                                   |
+|                                  | Field Definition                 | Definition of this field     | STRING                                                                    |
+| Source Information               | Source System / Database         |                              | STRING                                                                    |
+|                                  | Table Name / File Name           |                              | STRING                                                                    |
+|                                  | Alias                            |                              | STRING                                                                    |
+|                                  | Column                           |                              | STRING                                                                    |
+| Transform                        | Business Rule Type               |                              | LITERAL["Not Mapped", "Constant", "Not Mapped", "Move", "Filter", "Join"] |
+|                                  | Business Rule / Join / Condition |                              | STRING                                                                    |
+|                                  | Remark                           |                              | STRING                                                                    |
+| Updating Information             | Updated Date                     |                              | DATETIME                                                                  |		
+|                                  | Updated By                       |                              | STRING                                                                    |
+|                                  | Remark                           |                              | STRING                                                                    |
 
 !!! example
 
