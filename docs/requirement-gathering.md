@@ -19,8 +19,13 @@ The most important task that effect to role responsibility is the
 
 ## Data Source
 
-| Question                                     | Answer                                                                                  |
-|----------------------------------------------|-----------------------------------------------------------------------------------------|
-| How to incremental load of this data source? | The filter fields for filter period of changed data like create_date, updated_date etc. |
-|                                              |                                                                                         |
-|                                              |                                                                                         |
+These questions use per data source.
+
+| Question                                                                 | Answer                                                                                  |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| What is data source name?                                                |                                                                                         |
+| What is the primary of this data source?                                 |                                                                                         |
+| How to ingest data to this data source?                                  |                                                                                         |
+| How to incremental load of this data source?                             | The filter fields for filter period of changed data like create_date, updated_date etc. |
+| What is loading type of this data source?                                | Incremental via Merge or Append.<br>Full-dump load.                                     |
+| When to load this data source that does not effect to the source system? | Every 1:30 AM to 3:00AM is good or not?                                                 |

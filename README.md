@@ -1,4 +1,4 @@
-# Catalogs
+# Data Modeling
 
 [![size](https://img.shields.io/github/languages/code-size/korawica/catalogs?logo=webpack&logoColor=white)](https://github.com/korawica/catalogs)
 [![gh license](https://img.shields.io/github/license/korawica/catalogs)](https://github.com/korawica/catalogs/blob/main/LICENSE)
@@ -7,6 +7,12 @@ Document project for **Catalog** and **Data Modeling** for any business data sto
 
 > [!NOTE]
 > This project will focus on the data modeling knowledge.
+
+## :book: Page
+
+```url
+https://korawica.github.io/catalogs/
+```
 
 ## :speech_balloon: Contribute
 
