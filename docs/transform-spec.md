@@ -3,7 +3,7 @@
 When the requirement of data ingestion and transformation was completed by user,
 the final product that use to communicate is the transformation spec data.
 
-## Metadata of Spec Data
+## Metadata of Transform Spec
 
 | Component                        | Column Name                      | Description                  | Data Type                                                                 |
 |----------------------------------|----------------------------------|------------------------------|---------------------------------------------------------------------------|
