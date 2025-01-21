@@ -1,10 +1,10 @@
-# Catalogs
+# Data Modeling
 
-Catalog for data profiling for any data store
+A Data modeling document for any business data store.
 
 !!! note
 
-    This project will focus on the data modeling knowledge
+    This project will focus on the data modeling knowledge and implementation.
 
 The end-to-end flow before implementation step.
 
@@ -28,7 +28,11 @@ stateDiagram-v2
 
 ## Metadata
 
-## Transform Spec
+### Domain
+
+### Transform Spec
 
 The table structure for keeping transformation spec for any transform that use
 on the ETL/ELT process.
+
+### Control Framework

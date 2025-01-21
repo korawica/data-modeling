@@ -1,4 +1,4 @@
-site_name: Catalogs
+site_name: Data Modeling
 theme:
   name: material
   features:
@@ -38,13 +38,13 @@ theme:
     admonition:
         warning: material/alert-decagram-outline
 
-repo_name: korawica/catalogs
-repo_url: https://github.com/korawica/catalogs
+repo_name: korawica/data-modeling
+repo_url: https://github.com/korawica/data-modeling
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/korawica/catalogs
+      link: https://github.com/korawica/data-modeling
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/in/korawica
     - icon: fontawesome/brands/x-twitter
@@ -103,4 +103,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  Copyright &copy; 2023 <a href="https://github.com/korawica/catalogs" target="_blank" rel="noopener">Korawich Anuttra</a>
+  Copyright &copy; 2023 <a href="https://github.com/korawica/data-modeling" target="_blank" rel="noopener">Korawich Anuttra</a>
