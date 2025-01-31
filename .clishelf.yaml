@@ -1,0 +1,16 @@
+version:
+  version: "./scripts/__about__.py"
+  changelog: "CHANGELOG.md"
+  mode: "datetime"
+  commit_msg_format: "- {subject} at {datetime:%Y-%m-%d}"
+git:
+  commit_prefix:
+    - ["comment", "Documents", ":bulb:"] # 💡
+    - ["typos", "Documents", ":pencil2:"] # ✏️
+    - ["summary", "Documents", ":pencil:"] # 📝
+    - ["refs", "References", ":clipboard:"] # 📋, 📎 :paperclip:
+    - ["conf", "Code Changes", ":seedling:"] # 🌱
+  commit_prefix_group:
+    - ["Features", ":tada:"] # 🎉
+    - ["References", ":scissors:"] # ✂️, 📁 :file_folder:
+    - ["Documents", ":book:"] # 📖
