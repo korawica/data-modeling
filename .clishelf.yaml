@@ -10,6 +10,7 @@ git:
     - ["summary", "Documents", ":pencil:"] # 📝
     - ["refs", "References", ":clipboard:"] # 📋, 📎 :paperclip:
     - ["conf", "Code Changes", ":seedling:"] # 🌱
+    - ["merge", "Code Changes", ":fast_forward:"] # ⏩
   commit_prefix_group:
     - ["Features", ":tada:"] # 🎉
     - ["References", ":scissors:"] # ✂️, 📁 :file_folder:
