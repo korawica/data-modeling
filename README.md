@@ -3,7 +3,7 @@
 [![size](https://img.shields.io/github/languages/code-size/korawica/data-modeling?logo=webpack&logoColor=white)](https://github.com/korawica/data-modeling)
 [![gh license](https://img.shields.io/github/license/korawica/data-modeling)](https://github.com/korawica/data-modeling/blob/main/LICENSE)
 
-A Data modeling document for any business data store.
+A Data Modeling document for any business data store.
 
 > [!NOTE]
 > This project will focus on the data modeling knowledge and implementation.
