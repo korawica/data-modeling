@@ -6,11 +6,11 @@ A Data modeling document for any business data store.
 
     This project will focus on the data modeling knowledge and implementation.
 
-The end-to-end flow before implementation step.
+The flow before implementation data modeling.
 
 ```mermaid
 ---
-title: E2E Flow
+title: End-to-End Flow
 ---
 stateDiagram-v2
     direction LR
@@ -26,13 +26,17 @@ stateDiagram-v2
     T --> [*]
 ```
 
+## Transform Spec
+
+A table structure for keeping transformation spec for any transform that use
+on the ETL/ELT process.
+
 ## Metadata
+
+A metadata keeps all schema structure of any data that able to store.
 
 ### Domain
 
-### Transform Spec
+### Structure
 
-The table structure for keeping transformation spec for any transform that use
-on the ETL/ELT process.
-
-### Control Framework
+## Control Framework

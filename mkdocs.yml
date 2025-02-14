@@ -61,6 +61,14 @@ nav:
     - Structures:
         - Master: metadata/structures/master.md
         - Transaction: metadata/structures/transaction.md
+        - ETL: metadata/structures/etl.md
+  - Control Framework:
+    - Node Strategy:
+        - control-framework/node-strategy/index.md
+        - Metadata: control-framework/node-strategy/metadata.md
+    - Pipeline Strategy:
+        - control-framework/pipeline-strategy/index.md
+        - Metadata: control-framework/pipeline-strategy/metadata.md
 
 plugins:
   - awesome-pages
