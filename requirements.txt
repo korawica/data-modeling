@@ -2,5 +2,5 @@ pre-commit==4.1.0
 clishelf==0.2.19
 
 # CORE packages
-mkdocs-material==9.6.1
+mkdocs-material==9.6.6
 mkdocs-awesome-pages-plugin==2.10.1
