@@ -43,6 +43,7 @@ theme:
     text: "Public Sans"
     code: Roboto Mono
   icon:
+    logo: octicons/ai-model-24
     repo: fontawesome/brands/github-alt
     admonition:
         warning: material/alert-decagram-outline
