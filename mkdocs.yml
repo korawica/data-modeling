@@ -2,36 +2,45 @@ site_name: Data Modeling
 theme:
   name: material
   features:
-    - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.sections
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.tabs.link
-    - content.code.annotation
+    - announce.dismiss
+    - content.code.annotate
     - content.code.copy
     - content.code.select
-    - content.footnote.tooltips
+    - content.tabs.link
     - content.tooltips
+    - header.autohide
+    - navigation.indexes
+    - navigation.expand
+    - navigation.footer
+    - navigation.instant
+    - navigation.sections
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
   language: en
   palette:
     - scheme: default
+      primary: white
+      accent: gray
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: black
-      accent: purple
     - scheme: slate
+      primary: grey
+      accent: white
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: blue grey
-      accent: lime
   font:
-    text: Work Sans
+    text: "Public Sans"
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github-alt
@@ -51,9 +60,11 @@ extra:
       link: https://x.com/korawica
 
 nav:
-  - index.md
-  - Requirement Gathering: requirement-gathering.md
-  - Transform Spec: transform-spec.md
+  - Home:
+    - index.md
+    - Requirement Gathering: requirement-gathering.md
+    - Transform Spec: transform-spec.md
+
   - Metadata:
     - Domains:
         - Customer: metadata/domains/customer.md
@@ -62,13 +73,14 @@ nav:
         - Master: metadata/structures/master.md
         - Transaction: metadata/structures/transaction.md
         - ETL: metadata/structures/etl.md
-  - Control Framework:
+
+  - Framework:
     - Node Strategy:
-        - control-framework/node-strategy/index.md
-        - Metadata: control-framework/node-strategy/metadata.md
+        - framework/node-strategy/index.md
+        - Metadata: framework/node-strategy/metadata.md
     - Pipeline Strategy:
-        - control-framework/pipeline-strategy/index.md
-        - Metadata: control-framework/pipeline-strategy/metadata.md
+        - framework/pipeline-strategy/index.md
+        - Metadata: framework/pipeline-strategy/metadata.md
 
 plugins:
   - awesome-pages
